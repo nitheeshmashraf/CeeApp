@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+.logo{
+	float: left;
+	width: 168px;
+}
+.titletxt{
+	text-align: center;
+}
+.Modtxt{
+	text-align: right;
+}
+.fstH{
+	font-family: sans-serif;
+	font-size: 30px;
+    font-family: monospace;
+  	color: rgb(0, 135, 182);
+ 	line-height: 1.2;
+  	text-align: left;
+  z-index: 96;
+
+}
+.sndH{
+	    float: right;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 20px;
+  	color: rgb(0, 135, 182);
+	
+}
+
+.respImg{
+	  width: 16px; 
+}
+.You_have_created_an_Advocate {
+ font-size: 20px;
+    font-family: "Nirmala UI";
+    color: rgb(128, 202, 128);
+}
+.New_Albatross_Global_Solutions_Rectangle_Logo_copy {
+  background-image: url("https://s27.postimg.org/kbwe28hab/New-_Albatross-_Global-_Solutions-_Rectangle-_Logo.png");
+  opacity: 0.051;
+  position: absolute;
+  left: 657px;
+  top: 206px;    
+
+  width: 497px;
+    height: 254px;
+  z-index: 89;
+}
+#container, #container1, #container2, #container3, #container4, #container5 {
+      margin-top: 46px;
+    margin-right: 46px;
+    margin-bottom: 10px;
+    margin-left: 46px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.AssmntTitle{
+  text-align: center;
+}
+#container5{
+  left: 115px;
+}
+.totalTxt{
+  text-align: center;
+}
+.lflt{
+  float: right;
+}
+#infoDets {
+    display: none;
+}
+.infos:hover #infoDets {
+    display:block;
+}
+.infos { background-color: #CCC; }
+
+.infoicon{
+width: 21px;
+
+}
+
+.infoicon1{
+width: 15px;
+line-height: 1.6px;
+
+}
+ul {
+  list-style-type: none;
+}

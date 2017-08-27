@@ -1,0 +1,53 @@
+<div class="Artboard_1">
+    <img class="GraphIcon" src="./imgss/GraphIcon.png" alt="gfIcn">
+    <img class="infoicon" src="./imgss/infoicon.png" alt="infIcn">
+    <img class="albLogo" src="./imgss/albLogo.png" alt="albLogo">
+    <img class="adv" src="./imgss/adv.png" alt="adv">
+    <img class="New_Albatross_Global_Solutions_Rectangle_Logo_copy" src="./imgss/New-Albatross.png" alt="bckwall">
+  >
+</div>
+
+
+function () {
+		if($scope.flagifbar==0){
+				console.log('Entry');
+		  var elem = document.getElementById("myBar0");   
+		  // var elem1 = document.getElementById("myBar1");   
+		  // var elem2 = document.getElementById("myBar2");   
+		  // var elem3 = document.getElementById("myBar3");   
+		  // var elem4 = document.getElementById("myBar4");   
+		  var width = 1;
+		  var k=0;
+		  var i=0;
+		  var id = setInterval(frame, 10);
+		//   for (i = 0; i < 5; i++) { 
+		//     frame(i);
+		// }
+		  function frame(k) {
+		  	// switch(k){
+		  	// 	case 0:
+		  	// 	Endwidth=100;
+		  	// 	case 1:
+		  	// 	Endwidth=100;
+		  	// 	case 2:
+		  	// 	Endwidth=100;
+		  	// 	case 3:
+		  	// 	Endwidth=100;
+		  	// 	case 4:
+		  	// 	Endwidth=0;
+		  	// }
+		    if (width >= 90) {
+		      clearInterval(id);
+		    } else {
+		      width++; 
+		      elem.style.width = width + '%'; 
+		      // elem1.style.width = width + '%'; 
+		      // elem2.style.width = width + '%'; 
+		      // elem3.style.width = width + '%'; 
+		      // elem4.style.width = width + '%'; 
+		    }
+		  }
+				console.log('Exit');
+				$scope.flagifbar=1;
+}
+};
